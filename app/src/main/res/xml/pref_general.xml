@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="Test poke"
+        android:key="test_button"
+        android:summary="Attempts a poke"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="enable_switch"
+        android:summary="@string/pref_summary_enable"
+        android:title="@string/pref_title_enable" />
+
+    <EditTextPreference
+        android:defaultValue="60"
+        android:key="frequency_text"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_frequency" />
+
+    <EditTextPreference
+        android:defaultValue="server"
+        android:key="server_text"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_server" />
+
+    <EditTextPreference
+        android:defaultValue="8080"
+        android:key="port_text"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_port" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="boot_switch"
+        android:summary="@string/pref_summary_boot"
+        android:title="@string/pref_title_boot" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="wifi_switch"
+        android:summary="@string/pref_summary_wifionly"
+        android:title="@string/pref_title_wifionly" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="netchange_switch"
+        android:summary="@string/pref_summary_netchange"
+        android:title="@string/pref_title_netchange" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notif_switch"
+        android:summary="@string/pref_summary_notif"
+        android:title="@string/pref_title_notif" />
+
+</PreferenceScreen>
